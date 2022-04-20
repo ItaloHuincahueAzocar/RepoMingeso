@@ -30,7 +30,7 @@ public class Cliente {
         }while(o!=4);
     }
     
-    public static void usarServicio(FactoryServicioFactory factory) {
+    private static void usarServicio(FactoryServicioFactory factory) {
         ServicioInformatico servicio = factory.crearServicio();
         servicio.asignarTrabajo();
         servicio.indicarFechaEntrega();
